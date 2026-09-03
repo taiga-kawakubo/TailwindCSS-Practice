@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+@import "tailwindcss";
+
+/*フォントの上書き*/
+@theme {
+    --color-laravel-red: #F05340;
+    --color-vue-green: #42b883;
+}
+
+/*フォントのデフォルトの追加*/
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
